@@ -1,9 +1,19 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 header {
     background-color: bisque;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+}
+
+header h1 {
+    padding: 20px 7px;
 }
 
 header a {
@@ -33,13 +43,21 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: flex-end;    
     height: 600px;
+    
     background-size: cover;
+    background-position: center;
     background-image: url("../images/hero-bgrd.jpg");
 }
 
 h2 {
-    background-color: burlywood;
+    background-color: rgba(255, 228, 196, 0.7);
     height: 1.5em;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 5px 7px;
+    
 }
 
 .profile {
@@ -50,11 +68,14 @@ h2 {
 }
 
 .container {
+    margin: 50px auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;  
-    
+    justify-content: space-between;      
+    align-content: center;
+   
 }
 
 li {
@@ -62,11 +83,21 @@ li {
 }
 
 .child {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    width: 40%;
+    border-right: 5px solid black;
+}
 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    
 }
 
 .flexbox a {
@@ -76,8 +107,8 @@ li {
 .flexbox ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     
 }
