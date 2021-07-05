@@ -32,9 +32,14 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;    
-    
+    height: 600px;
+    background-size: cover;
     background-image: url("../images/hero-bgrd.jpg");
+}
 
+h2 {
+    background-color: burlywood;
+    height: 1.5em;
 }
 
 .profile {
@@ -48,9 +53,12 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;  
     
-    
+}
+
+li {
+    padding: 20px;
 }
 
 .child {
@@ -67,4 +75,9 @@ header nav ul li a {
 
 .flexbox ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
