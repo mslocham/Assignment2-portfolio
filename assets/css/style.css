@@ -30,7 +30,41 @@ header nav ul li a {
 
 .hero {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: flex-end;    
+    
     background-image: url("../images/hero-bgrd.jpg");
-    background-size: cover;
+
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flexbox a {
+    text-decoration: none;   
+}
+
+.flexbox ul {
+    list-style: none;
 }
